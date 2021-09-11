@@ -1,0 +1,116 @@
+ul {
+  list-style: none;
+}
+
+.heroSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.heroSection .hleft {
+  width: 30%;
+  padding: 40px;
+}
+
+.heroSection .hleft img {
+  width: 100%;
+}
+
+.heroSection .genlist {
+  width: 30%;
+}
+
+.heroSection .hright {
+  width: 40%;
+  padding: 40px;
+  padding-left: 10px;
+}
+
+.heroSection .hright h2 {
+  color: #6cb5ce;
+  font-weight: 700;
+}
+
+.heroSection .hright h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #084255;
+}
+
+.heroSection .hright .mdetail {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.heroSection .hright .mdetail span {
+  color: #d66d6d;
+  font-weight: bold;
+}
+
+.heroSection .hright table {
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.heroSection .hright table tr {
+  text-align: justify;
+}
+
+.heroSection .hright table th {
+  font-size: 16px;
+  color: #6cb5ce;
+}
+
+.heroSection .hright table th, .heroSection .hright table td {
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
+  padding: 5px;
+  text-align: center;
+  background-color: #ebdfd0;
+}
+
+.heroSection .hright table button {
+  background-color: chartreuse;
+}
+
+@media screen and (max-width: 990px) {
+  .heroSection .hleft {
+    width: 40%;
+  }
+  .heroSection .hright {
+    width: 60%;
+  }
+  .heroSection .hright h3 {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #084255;
+  }
+  .heroSection .hright h2 {
+    font-size: 22px;
+  }
+  .heroSection .hright p {
+    font-size: 14px;
+  }
+  .heroSection .genlist {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .mdetail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=Mdet.css.map */

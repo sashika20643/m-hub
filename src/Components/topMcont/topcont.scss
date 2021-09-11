@@ -1,0 +1,21 @@
+.movielist{
+    display: flex;
+  flex-wrap: wrap;
+  max-height: 90vh;
+
+  width: 100%;
+  list-style: none;
+  img{
+    
+      width:9vw;
+  }
+}
+
+
+
+@media screen and (max-width:1242px){
+    .movielist{
+        overflow-wrap:break-word;
+       
+    }
+}

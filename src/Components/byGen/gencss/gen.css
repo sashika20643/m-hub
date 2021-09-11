@@ -1,0 +1,29 @@
+.gen {
+  margin-top: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  text-align: center;
+}
+
+.gen h3 {
+  text-align: center;
+  color: #6cb5ce;
+  font-weight: 400;
+}
+
+.gen img {
+  height: 300px;
+}
+/*# sourceMappingURL=gen.css.map */

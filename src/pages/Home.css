@@ -1,0 +1,22 @@
+.hb{
+    display: flex;
+   
+}
+.hb>div{
+      width: 45%;
+      margin-right: 40px; 
+      text-align: center;
+      margin-top: 40px;
+      font-weight: 900;
+      color:cadetblue;
+}
+@media screen and (max-width: 990px){
+    .hb{
+        flex-direction: column;
+    }
+    .hb>div{
+        width: 100%;
+    }
+
+
+}

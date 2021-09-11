@@ -1,0 +1,130 @@
+.blue{
+    color: #096BEF;
+}
+.red{
+    color: #F23333;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:#f0f0f0;
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+    .N-items{
+        cursor: pointer;
+        display: flex;
+        height: 100%;
+
+        
+    }
+    .Mico{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        padding:10px;
+        font-size: 24px;
+        color:#096BEF;
+        span{
+            color:red;
+        }
+    }
+    ul{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        font-size: 18px;
+        
+        margin-right: 40px;
+       
+        li{
+            display: inline;
+            margin-right: 30px;
+        }
+        li:hover{
+            color: cornflowerblue;
+        }
+        
+
+
+    }
+    input{
+        width: 190px;
+        height: 35px;
+        margin-right: 20px;
+       
+    }
+    .search{
+       
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    button{
+       width:70px;
+       height: 35px;
+        outline: 1px solid green;
+        border: none;
+        border-radius: 4%;
+    }
+    button:hover{
+        background-color:green;
+        color: white;
+    }}
+}
+
+
+@media screen and (max-width: 990px){
+nav{
+   
+    height: auto;
+    .logo{
+        width:100%;
+    }
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: space-around;
+    display: block;
+    .Mico{
+    display: block;
+    border:none;
+
+}
+ul{ display: block;
+    li{
+        display: block;
+      text-align: left;
+    }
+}
+.N-items{
+   
+    padding-left: 10px;
+   
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 30px;
+    ul{
+        padding-left: 0px;
+        li:hover{
+            background-color: cornflowerblue;
+            color:black;
+        }
+    }
+    .search{
+        height: 100%;
+        width: auto;
+        text-align: left;
+        justify-content: center;
+    }
+}
+
+.N-items{
+    display: none;
+}}
+
+}

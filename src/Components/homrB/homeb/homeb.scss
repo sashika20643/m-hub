@@ -1,0 +1,51 @@
+.Homeb{
+    margin-top: 40px;
+    li{
+        display: flex;
+
+        
+        width: 100%;
+        overflow: hidden;
+        margin-top:40px;
+        .bimg{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+        .bright{
+            width: 50%;
+            background-color: rgb(147, 167, 223);
+            
+           
+            .br{
+                padding:20px ;
+            height:fit-content;
+            border-radius: 0px 10px 10px 0px ;
+            background-color: cornflowerblue;
+       
+            h3{
+                font-size: 22px;
+                color: rgb(48, 66, 126);
+                margin-bottom: 10px;
+            }
+            h4{
+                font-size: 19px;
+                color: rgb(133, 49, 108);
+            }}
+            button{
+                margin-left:60px ;
+                margin-top: 50px;
+                width: 100px;
+                height: 50px;
+                outline:1px solid cyan;
+                border:none;
+               
+            }
+            button:hover{
+                background-color: cyan;
+                color: wheat;
+            }
+        }
+    }
+}

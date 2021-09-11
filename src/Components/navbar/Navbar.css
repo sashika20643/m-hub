@@ -1,0 +1,159 @@
+.blue {
+  color: #096BEF;
+}
+
+.red {
+  color: #F23333;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #f0f0f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .N-items {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+nav .Mico {
+  display: none;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  font-size: 24px;
+  color: #096BEF;
+}
+
+nav .logo span {
+  color: red;
+}
+
+nav ul {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav ul li:hover {
+  color: cornflowerblue;
+}
+
+nav input {
+  width: 190px;
+  height: 35px;
+  margin-right: 20px;
+}
+
+nav .search {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .search button {
+  width: 70px;
+  height: 35px;
+  outline: 1px solid green;
+  border: none;
+  border-radius: 4%;
+}
+
+nav .search button:hover {
+  background-color: green;
+  color: white;
+}
+
+@media screen and (max-width: 990px) {
+  nav {
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    display: block;
+  }
+  nav .logo {
+    width: 100%;
+  }
+  nav .Mico {
+    display: block;
+    border: none;
+  }
+  nav ul {
+    display: block;
+  }
+  nav ul li {
+    display: block;
+    text-align: left;
+  }
+  nav .N-items {
+    padding-left: 10px;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 30px;
+  }
+  nav .N-items ul {
+    padding-left: 0px;
+  }
+  nav .N-items ul li:hover {
+    background-color: cornflowerblue;
+    color: black;
+  }
+  nav .N-items .search {
+    height: 100%;
+    width: auto;
+    text-align: left;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  nav .N-items {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

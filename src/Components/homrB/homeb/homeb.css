@@ -1,0 +1,60 @@
+.Homeb {
+  margin-top: 40px;
+}
+
+.Homeb li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.Homeb li .bimg {
+  width: 50%;
+}
+
+.Homeb li .bimg img {
+  width: 100%;
+}
+
+.Homeb li .bright {
+  width: 50%;
+  background-color: #93a7df;
+}
+
+.Homeb li .bright .br {
+  padding: 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 0px 10px 10px 0px;
+  background-color: cornflowerblue;
+}
+
+.Homeb li .bright .br h3 {
+  font-size: 22px;
+  color: #30427e;
+  margin-bottom: 10px;
+}
+
+.Homeb li .bright .br h4 {
+  font-size: 19px;
+  color: #85316c;
+}
+
+.Homeb li .bright button {
+  margin-left: 60px;
+  margin-top: 50px;
+  width: 100px;
+  height: 50px;
+  outline: 1px solid cyan;
+  border: none;
+}
+
+.Homeb li .bright button:hover {
+  background-color: cyan;
+  color: wheat;
+}
+/*# sourceMappingURL=homeb.css.map */

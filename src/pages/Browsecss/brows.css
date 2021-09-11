@@ -1,0 +1,44 @@
+.SelectL {
+  margin-top: 40px;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.SelectL input, .SelectL select {
+  margin-right: 30px;
+}
+
+.SelectL select {
+  background-color: #87deba;
+  border: 1px solid transparent;
+  padding: 4px;
+}
+
+.SelectL button {
+  outline: 1px solid green;
+  border: none;
+  padding: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.SelectL button:hover {
+  background-color: green;
+  color: wheat;
+}
+
+@media screen and (max-width: 990px) {
+  .SelectL input, .SelectL select {
+    margin-right: 30px;
+    display: block;
+  }
+}
+/*# sourceMappingURL=brows.css.map */
