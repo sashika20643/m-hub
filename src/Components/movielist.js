@@ -1,6 +1,6 @@
 import {useState,useEffect} from "react";
 
-import axios from "../../../../pqueesy/pqueesy/node_modules/axios";
+import axios from "axios";
 
 function Mlist(){
 

@@ -3,7 +3,7 @@ import {useParams} from "react-router-dom";
 import {useState,useEffect} from "react";
 import './Mdetcss/Mdet.css';
 
-import axios from "../../node_modules/axios";
+import axios from "axios";
 import Gen from "../Components/byGen/Gen";
 
 function Mdetails(){

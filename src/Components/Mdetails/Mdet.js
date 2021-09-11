@@ -1,6 +1,6 @@
 import {useState,useEffect} from "react";
 
-import axios from "../../../node_modules/axios";
+import axios from "axios";
 
 function Mdet(ids){
     const id=ids;
